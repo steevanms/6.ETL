@@ -1,0 +1,649 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="234" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\FACT_INTERNET_SALES.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>FACT_INTERNET_SALES.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ProductKey" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\FACT_INTERNET_SALES.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="OrderDateKey" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\FACT_INTERNET_SALES.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="DueDateKey" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\FACT_INTERNET_SALES.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="ShipDateKey" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\FACT_INTERNET_SALES.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="CustomerKey" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\FACT_INTERNET_SALES.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="PromotionKey" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\FACT_INTERNET_SALES.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="CurrencyKey" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\FACT_INTERNET_SALES.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="SalesTerritoryKey" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\FACT_INTERNET_SALES.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="SalesOrderNumber" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\FACT_INTERNET_SALES.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="SalesOrderLineNumber" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\FACT_INTERNET_SALES.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="RevisionNumber" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\FACT_INTERNET_SALES.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="OrderQuantity" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\FACT_INTERNET_SALES.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="UnitPrice" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\FACT_INTERNET_SALES.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="ExtendedAmount" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\FACT_INTERNET_SALES.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="UnitPriceDiscountPct" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\FACT_INTERNET_SALES.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="DiscountAmount" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\FACT_INTERNET_SALES.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="ProductStandardCost" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\FACT_INTERNET_SALES.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="TotalProductCost" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\FACT_INTERNET_SALES.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="SalesAmount" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\FACT_INTERNET_SALES.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="TaxAmt" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\FACT_INTERNET_SALES.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Freight" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\FACT_INTERNET_SALES.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="CarrierTrackingNumber" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\FACT_INTERNET_SALES.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="CustomerPONumber" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\FACT_INTERNET_SALES.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="OrderDate" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\FACT_INTERNET_SALES.xlsx|||`Sheet1$`" type="Date" />
+            <Field name="DueDate" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\FACT_INTERNET_SALES.xlsx|||`Sheet1$`" type="Date" />
+            <Field name="ShipDate" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\FACT_INTERNET_SALES.xlsx|||`Sheet1$`" type="Date" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="234" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DIM_PRODUCT.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ProductKey" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="ProductAlternateKey" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="ProductSubcategoryKey" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="WeightUnitMeasureCode" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="SizeUnitMeasureCode" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="EnglishProductName" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="SpanishProductName" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="FrenchProductName" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="StandardCost" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="FinishedGoodsFlag" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Color" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="SafetyStockLevel" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="ReorderPoint" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="ListPrice" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Size" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="SizeRange" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Weight" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="DaysToManufacture" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="ProductLine" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="DealerPrice" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Class" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Style" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="ModelName" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="LargePhoto" size="32759" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="EnglishDescription" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="FrenchDescription" size="269" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="ChineseDescription" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="ArabicDescription" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="HebrewDescription" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="ThaiDescription" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="GermanDescription" size="318" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="JapaneseDescription" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="TurkishDescription" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="V_WString" />
+            <Field name="StartDate" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="Date" />
+            <Field name="EndDate" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Status" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="246" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT_CATEGORY.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DIM_PRODUCT_CATEGORY.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ProductCategoryKey" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT_CATEGORY.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="ProductCategoryAlternateKey" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT_CATEGORY.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="EnglishProductCategoryName" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT_CATEGORY.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="SpanishProductCategoryName" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT_CATEGORY.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="FrenchProductCategoryName" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT_CATEGORY.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="234" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT_SUBCATEGORY.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DIM_PRODUCT_SUBCATEGORY.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ProductSubcategoryKey" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT_SUBCATEGORY.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="ProductSubcategoryAlternateKey" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT_SUBCATEGORY.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="EnglishProductSubcategoryName" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT_SUBCATEGORY.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="SpanishProductSubcategoryName" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT_SUBCATEGORY.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="FrenchProductSubcategoryName" size="255" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT_SUBCATEGORY.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="ProductCategoryKey" source="File: S:\STEEV\Study\Udemy Learning\3.PL-300 certification Microsoft Power BI Data AnalystDA-100\1.Resources\Data Import\DIM_PRODUCT_SUBCATEGORY.xlsx|||`Sheet1$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="342" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ProductSubcategoryKey" selected="True" type="Int64" size="8" />
+            <SelectField field="ProductSubcategoryAlternateKey" selected="True" type="V_String" size="255" />
+            <SelectField field="EnglishProductSubcategoryName" selected="True" />
+            <SelectField field="SpanishProductSubcategoryName" selected="True" />
+            <SelectField field="FrenchProductSubcategoryName" selected="True" />
+            <SelectField field="ProductCategoryKey" selected="True" type="Int64" size="8" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="450" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ProductKey" selected="True" type="Int64" size="8" />
+            <SelectField field="OrderDateKey" selected="True" />
+            <SelectField field="DueDateKey" selected="True" />
+            <SelectField field="ShipDateKey" selected="True" />
+            <SelectField field="CustomerKey" selected="True" />
+            <SelectField field="PromotionKey" selected="True" />
+            <SelectField field="CurrencyKey" selected="True" />
+            <SelectField field="SalesTerritoryKey" selected="True" />
+            <SelectField field="SalesOrderNumber" selected="True" />
+            <SelectField field="SalesOrderLineNumber" selected="True" />
+            <SelectField field="RevisionNumber" selected="True" />
+            <SelectField field="OrderQuantity" selected="True" />
+            <SelectField field="UnitPrice" selected="True" />
+            <SelectField field="ExtendedAmount" selected="True" />
+            <SelectField field="UnitPriceDiscountPct" selected="True" />
+            <SelectField field="DiscountAmount" selected="True" />
+            <SelectField field="ProductStandardCost" selected="True" />
+            <SelectField field="TotalProductCost" selected="True" />
+            <SelectField field="SalesAmount" selected="True" />
+            <SelectField field="TaxAmt" selected="True" />
+            <SelectField field="Freight" selected="True" />
+            <SelectField field="CarrierTrackingNumber" selected="True" />
+            <SelectField field="CustomerPONumber" selected="True" />
+            <SelectField field="OrderDate" selected="True" />
+            <SelectField field="DueDate" selected="True" />
+            <SelectField field="ShipDate" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="474" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ProductKey" selected="True" type="Int64" size="8" />
+            <SelectField field="ProductAlternateKey" selected="True" />
+            <SelectField field="ProductSubcategoryKey" selected="True" />
+            <SelectField field="WeightUnitMeasureCode" selected="True" />
+            <SelectField field="SizeUnitMeasureCode" selected="True" />
+            <SelectField field="EnglishProductName" selected="True" />
+            <SelectField field="SpanishProductName" selected="True" />
+            <SelectField field="FrenchProductName" selected="True" />
+            <SelectField field="StandardCost" selected="True" />
+            <SelectField field="FinishedGoodsFlag" selected="True" />
+            <SelectField field="Color" selected="True" />
+            <SelectField field="SafetyStockLevel" selected="True" />
+            <SelectField field="ReorderPoint" selected="True" />
+            <SelectField field="ListPrice" selected="True" type="Double" size="8" />
+            <SelectField field="Size" selected="True" />
+            <SelectField field="SizeRange" selected="True" />
+            <SelectField field="Weight" selected="True" type="Double" size="8" />
+            <SelectField field="DaysToManufacture" selected="True" />
+            <SelectField field="ProductLine" selected="True" />
+            <SelectField field="DealerPrice" selected="True" />
+            <SelectField field="Class" selected="True" />
+            <SelectField field="Style" selected="True" />
+            <SelectField field="ModelName" selected="True" />
+            <SelectField field="LargePhoto" selected="True" />
+            <SelectField field="EnglishDescription" selected="True" />
+            <SelectField field="FrenchDescription" selected="True" />
+            <SelectField field="ChineseDescription" selected="True" />
+            <SelectField field="ArabicDescription" selected="True" />
+            <SelectField field="HebrewDescription" selected="True" />
+            <SelectField field="ThaiDescription" selected="True" />
+            <SelectField field="GermanDescription" selected="True" />
+            <SelectField field="JapaneseDescription" selected="True" />
+            <SelectField field="TurkishDescription" selected="True" />
+            <SelectField field="StartDate" selected="True" type="DateTime" size="19" />
+            <SelectField field="EndDate" selected="True" type="DateTime" size="19" />
+            <SelectField field="Status" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="354" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ProductCategoryKey" selected="True" type="Int64" size="8" />
+            <SelectField field="ProductCategoryAlternateKey" selected="True" type="V_String" size="255" />
+            <SelectField field="EnglishProductCategoryName" selected="True" />
+            <SelectField field="SpanishProductCategoryName" selected="True" />
+            <SelectField field="FrenchProductCategoryName" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="558" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File />
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions UseDcm="true" MaxRecords="" Format="23">
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TableStyle>Quoted</TableStyle>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Table>FACT_INTERNET_SALES_Alteryx</Table>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <OutputOption>Overwrite</OutputOption>
+            <Connection DcmType="ConnectionId">e6445960-9444-4927-80fa-3b531aaac39a</Connection>
+            <Projection />
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:Microsoft SQL Server ODBC DSN-less
+Table=FACT_INTERNET_SALES_Alteryx</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="606" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File />
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions UseDcm="true" MaxRecords="" Format="23">
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TableStyle>Quoted</TableStyle>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Table>DIM_PRODUCT_Alteryx</Table>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <OutputOption>Overwrite</OutputOption>
+            <Connection DcmType="ConnectionId">e6445960-9444-4927-80fa-3b531aaac39a</Connection>
+            <Projection />
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:Microsoft SQL Server ODBC DSN-less
+Table=DIM_PRODUCT_Alteryx</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="546" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File />
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions UseDcm="true" MaxRecords="" Format="23">
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TableStyle>Quoted</TableStyle>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Table>DIM_PRODUCT_SUBCATEGORY_Alteryx</Table>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <OutputOption>Overwrite</OutputOption>
+            <Connection DcmType="ConnectionId">e6445960-9444-4927-80fa-3b531aaac39a</Connection>
+            <Projection />
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:Microsoft SQL Server ODBC DSN-less
+Table=DIM_PRODUCT_SUBCATEGORY_Alte...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="546" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File />
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions UseDcm="true" MaxRecords="" Format="23">
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TableStyle>Quoted</TableStyle>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Table>DIM_PRODUCT_CATEGORY_Alteryx</Table>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <OutputOption>Overwrite</OutputOption>
+            <Connection DcmType="ConnectionId">e6445960-9444-4927-80fa-3b531aaac39a</Connection>
+            <Projection />
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:Microsoft SQL Server ODBC DSN-less
+Table=DIM_PRODUCT_CATEGORY_Alteryx</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings>
+        <Position x="318" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"ProductKey","ProductAlternateKey","ProductSubcategoryKey","WeightUnitMeasureCode","SizeUnitMeasureCode","EnglishProductName","SpanishProductName","FrenchProductName","StandardCost","FinishedGoodsFlag","Color","SafetyStockLevel","ReorderPoint","ListPrice","Size","SizeRange","Weight","DaysToManufacture","ProductLine","DealerPrice","Class","Style","ModelName","LargePhoto","EnglishDescription","FrenchDescription","ChineseDescription","ArabicDescription","HebrewDescription","ThaiDescription","GermanDescription","JapaneseDescription","TurkishDescription","StartDate","EndDate","Status"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="402" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF ISNULL([StartDate]) THEN NULL()&#xA;ELSEIF ISNUMBER([StartDate]) THEN DateTimeAdd(DateTimeParse(&quot;1900-01-01&quot;, &quot;%Y-%m-%d&quot;), ToNumber([StartDate]) - 2, &quot;days&quot;)&#xA;ELSE NULL()&#xA;ENDIF&#xA;" field="StartDate" size="10" type="Date" enabled="true" />
+            <FormulaField expression="IF ISNULL([EndDate]) THEN NULL()&#xA;ELSEIF ISNUMBER([EndDate]) THEN DateTimeAdd(DateTimeParse(&quot;1900-01-01&quot;, &quot;%Y-%m-%d&quot;), ToNumber([EndDate]) - 2, &quot;days&quot;)&#xA;ELSE NULL()&#xA;ENDIF&#xA;" field="EndDate" size="255" type="V_String" enabled="true" />
+            <FormulaField expression="IF ISNULL([ListPrice]) THEN NULL()&#xA;ELSEIF ISNUMBER([ListPrice]) THEN ToNumber([ListPrice])&#xA;ELSE NULL()&#xA;ENDIF&#xA;" field="ListPrice" size="255" type="V_String" enabled="true" />
+            <FormulaField expression="IF ISNULL([Weight]) THEN NULL()&#xA;ELSEIF ISNUMBER([Weight]) THEN ToNumber([Weight])&#xA;ELSE NULL()&#xA;ENDIF&#xA;" field="Weight" size="255" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>StartDate = IF ISNULL([StartDate]) THEN NULL()
+ELSEIF ISNUMBER([StartDate]) THEN...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="102" y="18" width="696" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Load the below tables into SQL Server DB
+1. Fact Internet Sales
+2. Dim Product
+3.Dim Product Category
+4. Dim Product Subcategory</Text>
+          <Font name="Arial" size="12" style="1" />
+          <TextColor name="Black" />
+          <FillColor r="128" g="255" b="255" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="21" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output26" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Load_Files_Into_DB</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="8ab29580-f35c-4946-8d32-57e3c2b4e3dc" />
+      <Telemetry>
+        <PreviousWorkflowId value="a0e7a1ec-e44e-4595-9af2-da54c5d1be20" />
+        <OriginWorkflowId value="a0e7a1ec-e44e-4595-9af2-da54c5d1be20" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
